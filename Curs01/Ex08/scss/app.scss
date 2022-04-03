@@ -31,3 +31,37 @@
 
   background-color: blue;
 }
+
+.squares {
+  width: 80%;
+  border: 1px solid black;
+  padding: 10px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.square {
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+  color: turquoise;
+}
+
+.square-magenta {
+  @extend .square;
+
+  background-color: magenta;
+}
+
+.square-peru {
+  @extend .square;
+
+  background-color: peru;
+}
+
+.square-purple {
+  @extend .square;
+
+  background-color: purple;
+}
