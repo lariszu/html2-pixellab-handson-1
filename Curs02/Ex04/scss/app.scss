@@ -15,3 +15,20 @@
     border-width: #{$i}px;
   }
 }
+
+@for $i from 02 to 06 {
+  .box-#{$i} {
+    height: 145px + $i * 5px;
+    width: 145px + $i * 5px;
+  }
+}
+
+@for $i from 10 through 50 {
+  .box-#{$i} {
+    @if $i % 2 == 0 {
+      background-color: gray;
+    } @else {
+      background-color: pink;
+    }
+  }
+}

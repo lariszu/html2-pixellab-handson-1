@@ -19,3 +19,9 @@
     }
   }
 }
+
+@for $i from 01 through 09 {
+  .box-#{$i} {
+    border: $i px;
+  }
+}
