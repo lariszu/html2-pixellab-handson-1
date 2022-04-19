@@ -65,3 +65,40 @@
 .flex-container-05 :nth-child(3) + div {
   flex-grow: 2;
 }
+
+.flex-container-01 {
+  align-items: center;
+}
+
+.flex-container-01 :nth-child(2) {
+  flex-grow: 1;
+}
+
+.flex-container-03 {
+  align-items: flex-end;
+}
+
+.flex-container-03 :nth-child(2) {
+  flex-grow: 1;
+}
+
+.flex-container-03 :nth-child(4) {
+  flex-grow: 2;
+}
+
+.flex-container-04 {
+  flex-direction: row-reverse;
+  align-items: center;
+}
+
+.flex-container-04 :nth-child(5) {
+  flex-grow: 1;
+}
+
+.flex-container-06 {
+  flex-direction: row-reverse;
+}
+
+.flex-container-06 :nth-child(4) {
+  flex-grow: 1;
+}

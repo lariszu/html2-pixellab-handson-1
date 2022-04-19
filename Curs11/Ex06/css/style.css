@@ -43,3 +43,10 @@
   grid-row-start: 3;
   grid-row-end: span 1;
 }
+
+.grid-item-4 {
+  grid-column-start: 5;
+  grid-column-end: span 1;
+  grid-row-start: 3;
+  grid-row-end: span 1;
+}
